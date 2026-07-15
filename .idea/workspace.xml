@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="LLM lab 생성">
-      <change afterPath="$PROJECT_DIR$/01_OpenAI_API/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_OpenAI_API/01_setup_and_first_call.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_OpenAI_API/02_chat_completion_basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_OpenAI_API/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="Open AI API">
+      <change afterPath="$PROJECT_DIR$/02_Prompt_Engineering/01_zero_few_cot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Prompt_Engineering/02_self_consistency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_Prompt_Engineering/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +52,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_setup_and_first_call.executor": "Run",
-    "Python.02_chat_completion_basics.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_setup_and_first_call.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_zero_few_cot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_chat_completion_basics.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LG/PycharmProjects/LLM-Lab/02_Prompt_Engineering&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\01_OpenAI_API" />
     </key>
   </component>
@@ -91,11 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1784002671906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Open AI API">
+      <option name="closed" value="true" />
+      <created>1784036105313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784036105313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LLM lab 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLM lab 생성" />
+    <MESSAGE value="Open AI API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open AI API" />
   </component>
 </project>
