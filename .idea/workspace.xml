@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="03_Embeddings">
-      <change afterPath="$PROJECT_DIR$/04_RAG/01_chunking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_RAG/02_vector_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_RAG/03_rag_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_RAG/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_RAG/sample_document.txt" afterDir="false" />
+    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="04_RAG Study">
       <change afterPath="$PROJECT_DIR$/05_LangChain/01_langchain_rag.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/05_LangChain/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Agent/01_simple_agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +56,9 @@
   "keyToString": {
     "Python.01_chunking.executor": "Run",
     "Python.01_embeddings_similarity.executor": "Run",
+    "Python.01_langchain_rag.executor": "Run",
     "Python.01_setup_and_first_call.executor": "Run",
+    "Python.01_simple_agent.executor": "Run",
     "Python.01_zero_few_cot.executor": "Run",
     "Python.02_chat_completion_basics.executor": "Run",
     "Python.02_self_consistency.executor": "Run",
@@ -79,11 +77,11 @@
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\06_Agent" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\05_LangChain" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\04_RAG" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\03_Embeddings" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab" />
-      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -134,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784085421411</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="04_RAG Study">
+      <option name="closed" value="true" />
+      <created>1784167093035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784167093035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +148,18 @@
     <MESSAGE value="Open AI API" />
     <MESSAGE value="02_Prompt_Engineering" />
     <MESSAGE value="03_Embeddings" />
-    <option name="LAST_COMMIT_MESSAGE" value="03_Embeddings" />
+    <MESSAGE value="04_RAG Study" />
+    <option name="LAST_COMMIT_MESSAGE" value="04_RAG Study" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/06_Agent/01_simple_agent.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
