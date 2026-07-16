@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="02_Prompt_Engineering">
-      <change afterPath="$PROJECT_DIR$/03_Embeddings/01_embeddings_similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_Embeddings/requirements.txt" afterDir="false" />
+    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="03_Embeddings">
       <change afterPath="$PROJECT_DIR$/04_RAG/01_chunking.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/04_RAG/02_vector_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_RAG/03_rag_pipeline.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/04_RAG/requirements.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/04_RAG/sample_document.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_LangChain/01_langchain_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_LangChain/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,28 +58,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.01_chunking.executor": "Run",
     "Python.01_embeddings_similarity.executor": "Run",
     "Python.01_setup_and_first_call.executor": "Run",
     "Python.01_zero_few_cot.executor": "Run",
     "Python.02_chat_completion_basics.executor": "Run",
     "Python.02_self_consistency.executor": "Run",
+    "Python.02_vector_store.executor": "Run",
+    "Python.03_rag_pipeline.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/LG/PycharmProjects/LLM-Lab/04_RAG"
+    "last_opened_file_path": "C:/Users/LG/PycharmProjects/LLM-Lab/05_LangChain"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\05_LangChain" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\04_RAG" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\03_Embeddings" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\05_LangChain" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\04_RAG" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\03_Embeddings" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
-      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\01_OpenAI_API" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -121,13 +126,22 @@
       <option name="project" value="LOCAL" />
       <updated>1784077475222</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="03_Embeddings">
+      <option name="closed" value="true" />
+      <created>1784085421411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1784085421411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LLM lab 생성" />
     <MESSAGE value="Open AI API" />
     <MESSAGE value="02_Prompt_Engineering" />
-    <option name="LAST_COMMIT_MESSAGE" value="02_Prompt_Engineering" />
+    <MESSAGE value="03_Embeddings" />
+    <option name="LAST_COMMIT_MESSAGE" value="03_Embeddings" />
   </component>
 </project>

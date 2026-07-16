@@ -1,0 +1,14 @@
+# Day 1: OpenAI API 기본
+openai>=1.30.0
+python-dotenv>=1.0.0
+
+# Day 3: Embeddings (코사인 유사도 계산용)
+numpy>=1.26.0
+
+# Day 4: RAG (벡터DB)
+chromadb>=0.5.0
+
+# 이후 Day가 진행되면서 아래 항목들이 추가될 예정입니다
+# tiktoken           (토큰 계산용, 필요시)
+# langchain          (05_LangChain에서 사용)
+# langchain-openai
