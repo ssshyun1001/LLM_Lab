@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="04_RAG Study">
-      <change afterPath="$PROJECT_DIR$/05_LangChain/01_langchain_rag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_LangChain/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_Agent/01_simple_agent.py" afterDir="false" />
+    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="06_Agent">
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/crawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/deduplication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/news_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/query_understanding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/rag_chain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/relevance_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/vector_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +73,8 @@
     "Python.02_self_consistency.executor": "Run",
     "Python.02_vector_store.executor": "Run",
     "Python.03_rag_pipeline.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/LG/PycharmProjects/LLM-Lab/05_LangChain"
@@ -77,11 +88,11 @@
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\02_Prompt_Engineering" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\Project_news_qa_agent" />
+      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\Project_news_qa_agent\app" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\06_Agent" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\05_LangChain" />
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\04_RAG" />
-      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\03_Embeddings" />
-      <recent name="C:\Users\LG\PycharmProjects\LLM-Lab" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -140,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784167093035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="04_LangChain Study">
+      <option name="closed" value="true" />
+      <created>1784167921064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784167921064</updated>
+    </task>
+    <task id="LOCAL-00007" summary="06_Agent">
+      <option name="closed" value="true" />
+      <created>1784181490637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784181490637</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,7 +176,9 @@
     <MESSAGE value="02_Prompt_Engineering" />
     <MESSAGE value="03_Embeddings" />
     <MESSAGE value="04_RAG Study" />
-    <option name="LAST_COMMIT_MESSAGE" value="04_RAG Study" />
+    <MESSAGE value="04_LangChain Study" />
+    <MESSAGE value="06_Agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="06_Agent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
