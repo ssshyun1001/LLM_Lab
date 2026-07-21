@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="Project_newsQA_개선 및 검증 추가">
+    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="Project_newsQA_ HyDE 검색 평가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/app/query_understanding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/query_understanding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/eval_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/eval_retrieval.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
     &quot;Python.build_labeled_set.executor&quot;: &quot;Run&quot;,
     &quot;Python.config.executor&quot;: &quot;Run&quot;,
     &quot;Python.eval_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eval_retrieval.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -174,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784449668936</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Project_newsQA_ 크롤링 개선 및 필터 효과 정리">
+      <option name="closed" value="true" />
+      <created>1784522304257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784522304257</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Project_newsQA_ HyDE 검색 평가">
+      <option name="closed" value="true" />
+      <created>1784533449958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784533449958</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,7 +205,9 @@
     <MESSAGE value="06_Agent" />
     <MESSAGE value="Project_newsQA" />
     <MESSAGE value="Project_newsQA_개선 및 검증 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project_newsQA_개선 및 검증 추가" />
+    <MESSAGE value="Project_newsQA_ 크롤링 개선 및 필터 효과 정리" />
+    <MESSAGE value="Project_newsQA_ HyDE 검색 평가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project_newsQA_ HyDE 검색 평가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
