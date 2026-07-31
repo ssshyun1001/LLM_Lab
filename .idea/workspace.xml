@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="Project_newsQA_다양한 데이터 추가 검증 및 기능 개선">
+    <list default="true" id="00630e47-d5a2-445b-88ae-36cf3483f964" name="Changes" comment="Project_newsQA_검색 필터 결과 업데이트">
       <change afterPath="$PROJECT_DIR$/Project_news_qa_agent/debug_similarity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/app/relevance_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/relevance_filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/app/vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/app/vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/eval_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/eval_filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/eval_retrieval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/eval_retrieval.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project_news_qa_agent/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_news_qa_agent/main.py" afterDir="false" />
     </list>
@@ -56,30 +54,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.01_chunking.executor": "Run",
-    "Python.01_embeddings_similarity.executor": "Run",
-    "Python.01_langchain_rag.executor": "Run",
-    "Python.01_setup_and_first_call.executor": "Run",
-    "Python.01_simple_agent.executor": "Run",
-    "Python.01_zero_few_cot.executor": "Run",
-    "Python.02_chat_completion_basics.executor": "Run",
-    "Python.02_self_consistency.executor": "Run",
-    "Python.02_vector_store.executor": "Run",
-    "Python.03_rag_pipeline.executor": "Run",
-    "Python.Debug.executor": "Run",
-    "Python.build_labeled_set.executor": "Run",
-    "Python.config.executor": "Run",
-    "Python.eval_filter.executor": "Run",
-    "Python.eval_retrieval.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.relevance_filter.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/LG/PycharmProjects/SWU_DS_study2025"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_chunking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_embeddings_similarity.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_langchain_rag.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_setup_and_first_call.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_simple_agent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_zero_few_cot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_chat_completion_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_self_consistency.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_vector_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_rag_pipeline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Debug.executor&quot;: &quot;Run&quot;,
+    &quot;Python.build_labeled_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eval_filter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eval_retrieval.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.relevance_filter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LG/PycharmProjects/SWU_DS_study2025&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LG\PycharmProjects\LLM-Lab\05_LangChain" />
@@ -223,7 +221,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785317057625</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Project_newsQA_제외어 필터 변경 및 데이터 셋 업데이트">
+      <option name="closed" value="true" />
+      <created>1785421077049</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1785421077049</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Project_newsQA_검색 필터 결과 업데이트">
+      <option name="closed" value="true" />
+      <created>1785422479470</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1785422479470</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -241,7 +255,9 @@
     <MESSAGE value="Project_newsQA_ HyDE 검색 평가 표본 20개로 증가" />
     <MESSAGE value="Project_newsQA_ 리드미 수정" />
     <MESSAGE value="Project_newsQA_다양한 데이터 추가 검증 및 기능 개선" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project_newsQA_다양한 데이터 추가 검증 및 기능 개선" />
+    <MESSAGE value="Project_newsQA_제외어 필터 변경 및 데이터 셋 업데이트" />
+    <MESSAGE value="Project_newsQA_검색 필터 결과 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project_newsQA_검색 필터 결과 업데이트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
